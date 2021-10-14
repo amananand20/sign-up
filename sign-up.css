@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-enclose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 7px;
+  border: 3px solid lightgray;
+  box-shadow: 0 0 20px gray;
+}
+
+.game-svg {
+  height: 30rem;
+  filter: drop-shadow(4px 4px 10px black);
+}
+
+.other-methods {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-link {
+  margin: 0px 8px;
+}
